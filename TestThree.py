@@ -61,3 +61,4 @@ course.remove_student(student1)  # Remove the first student again
 course.display_students()  # Display students after removing the first student again
 course.remove_student(student1)  # Attempt to remove a student that is not enrolled
 course.display_students()  # Display students after attempting to remove a student that is not enrolled
+course.add_student(student1)  # Re-adding the first student
